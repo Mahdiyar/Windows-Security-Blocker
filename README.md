@@ -2,7 +2,7 @@
 
 This is a PowerShell-based program that is used to block Windows Security from performing tasks such as installing custom programs, testing software, and anything that requires completely disabling Windows Antivirus.
 
-```bash
+```
 This project is not built for illegal purposes and is for testing purposes only.
 ```
 ## Installation
