@@ -104,12 +104,21 @@ def main():
     for cmd in ps_cmds:
         run_powershell_command(cmd)
 
-    print("\n=== Finished ===")
-    print("Restart the VM now for best results.")
-    print("Check Windows Security to see the status.")
+    os.system('cls')
+    print("Closing window in 1 second...")
+    time.sleep(1)
+    
+    os.system('exit')
+    
+    try:
+        ctypes.windll.user32.PostMessageW(
+            ctypes.windll.kernel32.GetConsoleWindow(), 
+            0x0010, 0, 0
+        )
+    except:
+        pass
 
-    # Keep window open for a while
-    time.sleep(10)
+    sys.exit(0)
 
 if __name__ == "__main__":
     try:
