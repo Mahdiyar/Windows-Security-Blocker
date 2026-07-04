@@ -105,7 +105,6 @@ def main():
         run_powershell_command(cmd)
 
     os.system('cls')
-    print("Closing window in 1 second...")
     time.sleep(1)
     
     os.system('exit')
