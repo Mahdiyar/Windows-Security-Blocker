@@ -8,6 +8,6 @@ This project is not built for illegal purposes and is for testing purposes only.
 ## Installation
 
  - First turn off Real-Time Protection in Windows Security.
- - Download the last release: [Click for Download 📩](https://github.com/Mahdiyar/Windows-Security-Blocker/releases/tag/WinSec)
+ - Download the last release: [Click for Download](https://github.com/Mahdiyar/Windows-Security-Blocker/releases/tag/WinSec)📩
  - Run WinSec-Blocker.exe and click Yes in administratior page.
  - Enjoy!
